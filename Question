@@ -1,5 +1,5 @@
 If you need using same code in many function then you can use the decorator.
-Purpose decorators is to reduce quantity code lines by means of function create and wraps other function
+Purpose of decorators is to reduce quantity code lines by means of function create and wraps other function
 Example:
 def login_required(f):
     @wraps(f)
